@@ -4,7 +4,7 @@ html{
 
 #header-principal .superior{
     align-items: center;
-    background: var(--gris-claro);
+    /* background: var(--gris-claro); */
     display: flex;
     height: 140px;
     justify-content: space-between;
