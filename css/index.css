@@ -6,14 +6,14 @@ html{
     align-items: center;
     /* background: var(--gris-claro); */
     display: flex;
-    height: 140px;
+    height: 160px;
     justify-content: space-between;
     padding: var(--padding-general);
 }
 
 #header-principal .superior .logo{
-    height: 40px;
-    width: 50px;
+    height: 60px;
+    width: 70px;
 }
 
 #header-principal .superior .logo img{
@@ -22,8 +22,8 @@ html{
 }
 
 #header-principal .superior .logo-central{
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
 }
 
 #header-principal .superior .logo-central img{
@@ -34,16 +34,28 @@ html{
 #header-principal .superior .derecho{
   /* border: 2px solid red; */
   display: flex;
-  height: 40px;
+  height: 60px;
   justify-content: space-around;
-  width: 120px;
+  width: 150px;
 }
 
 #header-principal .superior .derecho .image-container{
-  height: 10px;
-  width: 40px;
+  height: 30px;
+  width: 60px;
 }
 
 #header-principal .superior .derecho .image-container img{
   width: 100%;
+}
+
+/* Estilos Banner */
+
+.banner {
+  align-items: center;
+  background-image: url(../imgs/main_banner.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 495px;
+  justify-content: center;
 }
