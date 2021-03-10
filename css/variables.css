@@ -1,6 +1,7 @@
 :root {
+    --blanco: #FFFFFF;
     --tipografia-principal: 'Poppins', sans-serif;
     --turquesa-btn: #56CFE1;
+    --turquesa-hover: #4eb0be;
     --padding-general: 0 4%;
-
-}
+  }

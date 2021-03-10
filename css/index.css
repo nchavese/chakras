@@ -1,5 +1,6 @@
 html{
     font-family: var(--tipografia-principal);
+    font-size: 16px;
 }
 
 #header-principal .superior{
@@ -58,4 +59,36 @@ html{
   flex-direction: column;
   height: 495px;
   justify-content: center;
+}
+
+.banner .banner-info{
+  align-items: center;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-general)
+}
+
+.banner .banner-info h1{
+  color: var(--blanco);
+  font-size: 3.125rem;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.banner .banner-info button {
+  background-color: var(--turquesa-btn);
+  border-color: var(--turquesa-btn);
+  border: none;
+  color: var(--blanco);
+  font-size: 0.6875rem;
+  height: 40px;
+  width: 140.47px;
+}
+
+.banner .banner-info button:hover {
+  opacity: .8;
+  background-color: var(--turquesa-hover);
+  border-color: var(--turquesa-hover);
 }
