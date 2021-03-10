@@ -63,7 +63,7 @@ html{
 
 .banner .banner-info{
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   padding: var(--padding-general)
@@ -88,7 +88,8 @@ html{
 }
 
 .banner .banner-info button:hover {
-  opacity: .8;
+  cursor: pointer;
   background-color: var(--turquesa-hover);
   border-color: var(--turquesa-hover);
+  opacity: .8;
 }
