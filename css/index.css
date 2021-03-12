@@ -93,3 +93,51 @@ html{
   border-color: var(--turquesa-hover);
   opacity: .8;
 }
+
+
+.posters header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+}
+
+.posters header h2{
+  font-size: 1.25rem;
+  padding-bottom: 12px;
+}
+
+.posters header h3{
+  color: var(--gris);
+  font-size: 0.875rem;
+}
+
+.posters .card{
+  border: 2px solid red;
+
+}
+
+.posters .card .poster-general .upper-info{
+  display: flex;
+  height: 511px;
+  justify-content: space-between;
+  padding: var(--padding-general);
+  width: 511px;
+}
+
+
+.posters .card .poster-general .upper-info .image-container {
+  height: 14px;
+  width: 14px;
+}
+
+.posters .card .poster-general .upper-info .image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.posters .card .poster1{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/7-Chakras-Affirmations-Poster_02_540x.jpg);
+  background-size: cover;
+}
