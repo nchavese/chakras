@@ -33,7 +33,6 @@ html{
 }
 
 #header-principal .superior .derecho{
-  /* border: 2px solid red; */
   display: flex;
   height: 60px;
   justify-content: space-around;
@@ -52,7 +51,6 @@ html{
 /* Estilos Banner */
 
 .banner {
-  /* border: 2px solid purple; */
   align-items: center;
   background-image: url(../imgs/main_banner.jpg);
   background-repeat: no-repeat;
@@ -60,13 +58,11 @@ html{
   display: flex;
   flex-direction: column;
   height: 500px;
-  /* width: 100%; */
   justify-content: center;
 }
 
 .banner .banner-info{
   align-items: center;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   padding: var(--padding-general)
@@ -133,10 +129,15 @@ html{
 .posters .card .poster-general button{
   background-color: var(--turquesa-btn);
   border: none;
+  border-bottom: 1px solid green;
   color: var(--blanco);
-  font-size: 0.8125rem;
+  font-size: 1.5rem;
   font-weight: bold;
   height: 80px;
+}
+
+.posters .card .poster-general button:hover{
+  background-color: var(--turquesa-hover2);
 }
 
 .posters .card .poster-general .upper-info{
@@ -152,17 +153,18 @@ html{
   border: none;
   color: var(--blanco);
   font-weight: bold;
-  height: 30px;
-  width: 70px;
+  height: 40px;
+  width: 100px;
 }
 
 .posters .card .poster-general .upper-info .image-container {
-  height: 16px;
-  width: 20px;
+  height: 20px;
+  width: 24px;
   margin-right: 2%;
 }
 
 .posters .card .poster-general .upper-info .image-container img {
+  background-color: white;
   height: 100%;
   width: 100%;
   border: 20px solid var(--blanco);
