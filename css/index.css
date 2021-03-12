@@ -223,6 +223,7 @@ html{
 
 .posters .card .poster2{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/7-chakra-watercolor-handmade-poster-tapestry_1080x.jpg);
+  background-color: #B4B4B4;
 }
 
 .posters .card .poster3{
@@ -253,7 +254,7 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 .posters .btn-load button{
@@ -271,4 +272,12 @@ html{
   color: var(--blanco);
   cursor: pointer;
   transition: all .2s ease-in;
+}
+
+/* Trending Section */
+
+.trending header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
