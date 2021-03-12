@@ -105,6 +105,8 @@ html{
 }
 
 
+/*  */
+
 .posters header {
   align-items: center;
   display: flex;
@@ -133,13 +135,13 @@ html{
 }
 
 .posters .card .poster-general{
+  background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .posters .card .poster-general button{
@@ -220,7 +222,7 @@ html{
 }
 
 .posters .card .poster2{
-  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/7-chakra-watercolor-handmade-poster-tapestry_540x.jpg);
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/7-chakra-watercolor-handmade-poster-tapestry_1080x.jpg);
 }
 
 .posters .card .poster3{
@@ -245,4 +247,28 @@ html{
 
 .posters .card .poster8{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-crystals-stones-gemstones-chart_540x.jpg);
+}
+
+.posters .btn-load{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.posters .btn-load button{
+  background-color: var(--blanco);
+  border: 1px solid var(--turquesa-btn);
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  color: var(--turquesa-btn);
+  height: 45px;
+  width: 240px;
+}
+
+.posters .btn-load button:hover{
+  background-color: var(--turquesa-btn);
+  color: var(--blanco);
+  cursor: pointer;
+  transition: all .2s ease-in;
 }
