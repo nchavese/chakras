@@ -259,11 +259,11 @@ html{
 .posters .btn-load button{
   background-color: var(--blanco);
   border: 1px solid var(--turquesa-btn);
-  font-size: 0.7rem;
+  font-size: 1.5rem;
   letter-spacing: 2px;
   color: var(--turquesa-btn);
-  height: 45px;
-  width: 240px;
+  height: 70px;
+  width: 450px;
 }
 
 .posters .btn-load button:hover{
