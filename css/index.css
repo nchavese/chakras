@@ -56,7 +56,7 @@ html{
   align-items: center;
   background-image: url(../imgs/main_banner.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   height: 350px;
