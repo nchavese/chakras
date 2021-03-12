@@ -3,6 +3,16 @@ html{
     font-size: 16px;
 }
 
+.subrayado{
+  text-decoration: line-through;
+}
+
+.new-price{
+  color: var(--rojo-new-price);
+  font-weight: bold;
+  padding-left: 10px;
+}
+
 #header-principal .superior{
     align-items: center;
     /* background: var(--gris-claro); */
@@ -119,6 +129,7 @@ html{
   margin-left: 2%;
   margin-right: 2%;
   width: 96%;
+  padding-bottom: 200px;
 }
 
 .posters .card .poster-general{
@@ -127,6 +138,8 @@ html{
   justify-content: space-between;
   height: 100%;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .posters .card .poster-general button{
@@ -204,6 +217,32 @@ html{
 
 .posters .card .poster1{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/7-Chakras-Affirmations-Poster_02_540x.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
+}
+
+.posters .card .poster2{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/7-chakra-watercolor-handmade-poster-tapestry_540x.jpg);
+}
+
+.posters .card .poster3{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-poster-chart_7-chakrastore_06148f10-d26c-45ae-8d5d-5ba4ce5accf9_540x.jpg);
+}
+
+.posters .card .poster4{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-chart-digital-print-wall-art-hanging-poster_540x.jpg);
+}
+
+.posters .card .poster5{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/yoga-poses-poster-7-chakras-yoga-chart_540x.jpg);
+}
+
+.posters .card .poster6{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-affirmations-chart-poster-wall-art_a1bba328-6d56-4a1d-876b-23e3be2e1458_540x.jpg);
+}
+
+.posters .card .poster7{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-stones-crystals-chart-poster-wall-hanging-art_540x.jpg);
+}
+
+.posters .card .poster8{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-crystals-stones-gemstones-chart_540x.jpg);
 }
