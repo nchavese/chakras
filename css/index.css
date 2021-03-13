@@ -126,7 +126,7 @@ html{
 }
 
 .posters .card{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 1020px;
   margin-left: 2%;
   margin-right: 2%;
@@ -218,47 +218,47 @@ html{
 }
 
 
-.posters .card .poster1{
+.poster1{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/7-Chakras-Affirmations-Poster_02_540x.jpg);
 }
 
-.posters .card .poster2{
+.poster2{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/7-chakra-watercolor-handmade-poster-tapestry_1080x.jpg);
   background-color: #B4B4B4;
 }
 
-.posters .card .poster3{
+.poster3{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-poster-chart_7-chakrastore_06148f10-d26c-45ae-8d5d-5ba4ce5accf9_540x.jpg);
 }
 
-.posters .card .poster4{
+.poster4{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-chart-digital-print-wall-art-hanging-poster_540x.jpg);
 }
 
-.posters .card .poster5{
+.poster5{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/yoga-poses-poster-7-chakras-yoga-chart_540x.jpg);
 }
 
-.posters .card .poster6{
+.poster6{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-affirmations-chart-poster-wall-art_a1bba328-6d56-4a1d-876b-23e3be2e1458_540x.jpg);
 }
 
-.posters .card .poster7{
+.poster7{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-stones-crystals-chart-poster-wall-hanging-art_540x.jpg);
 }
 
-.posters .card .poster8{
+.poster8{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-crystals-stones-gemstones-chart_540x.jpg);
 }
 
-.posters .btn-load{
+.btn-load{
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 70px;
 }
 
-.posters .btn-load button{
+.btn-load button{
   background-color: var(--blanco);
   border: 1px solid var(--turquesa-btn);
   font-size: 1.5rem;
@@ -269,7 +269,7 @@ html{
   width: 450px;
 }
 
-.posters .btn-load button:hover{
+.btn-load button:hover{
   background-color: var(--turquesa-btn);
   color: var(--blanco);
   cursor: pointer;
@@ -318,13 +318,14 @@ html{
   transition: all .1s ease-in;
 }
 
-.trending .shirts {
+.trending .products {
   /* border: 2px solid purple; */
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
-.trending .shirts .card{
+.trending .products .card{
   /* border: 3px solid red; */
   height: 475px;
   margin-left: 2%;
@@ -333,7 +334,7 @@ html{
   padding-bottom: 150px;
 }
 
-.trending .shirts .card .poster-general{
+.trending .products .card .poster-general{
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -343,7 +344,7 @@ html{
   width: 100%;
 }
 
-.trending .shirts .card .poster-general button{
+.trending .products .card .poster-general button{
   background-color: var(--turquesa-btn);
   border: none;
   border-bottom: 1px solid green;
@@ -354,11 +355,11 @@ html{
   outline: none;
 }
 
-.trending .shirts .card .poster-general button:hover{
+.trending .products .card .poster-general button:hover{
   background-color: var(--turquesa-hover2);
 }
 
-.trending .shirts .card .poster-general .upper-info{
+.trending .products .card .poster-general .upper-info{
   display: flex;
   justify-content: space-between;
   padding: var(--padding-general);
@@ -366,7 +367,7 @@ html{
 
 }
 
-.trending .shirts .card .poster-general .upper-info button{
+.trending .products .card .poster-general .upper-info button{
   background: var(--naranja);
   border: none;
   color: var(--blanco);
@@ -375,13 +376,13 @@ html{
   width: 100px;
 }
 
-.trending .shirts .card .poster-general .upper-info .image-container {
+.trending .products .card .poster-general .upper-info .image-container {
   height: 20px;
   width: 24px;
   margin-right: 10%;
 }
 
-.trending .shirts .card .poster-general .upper-info .image-container img {
+.trending .products .card .poster-general .upper-info .image-container img {
   background-color: white;
   height: 100%;
   width: 100%;
@@ -389,28 +390,108 @@ html{
   border-radius: 100%;
 }
 
-.trending .shirts .card .down-info{
+.trending .products .card .down-info{
   padding-top: 20px;
   padding-bottom: 50px;
 }
 
-.trending .shirts .card .down-info p{
+.trending .products .card .down-info p{
   padding-top: 20px;
   font-size: 1.5rem;
 }
 
-.trending .shirts .card .down-info p:first-child{
-  font-weight: bold;
+.trending .products .card .down-info p:first-child{
+  font-weight: bold;.posters .card
 }
 
-.trending .shirts .card .ts1{
+.ts1{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-affirmations-spiritual-tshirt_360x.jpg);
 }
 
-.trending .shirts .card .ts2{
+.ts2{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-affirmations-white-spiritual-tshirt_360x.jpg);
 }
 
-.trending .shirts .card .ts3{
+.ts3{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakras-aligned-spiritual-t-shirt_7-chakra-shirt_360x.jpg);
+}
+
+.ts4{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakras-aligned-spiritual-t-shirt_7-chakra-white-shirt_360x.jpg);
+}
+
+.ts5{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/crystal-queen-gold-lettering-spiritual-yoga-tshirt_360x.jpg  );
+}
+
+.ts6{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/fuelled-by-coffee-and-crystals-white-spiritual-tshirt_360x.jpg);
+}
+
+.ts7{.trending .products .card .poster-general button{
+  background-color: var(--turquesa-btn);
+  border: none;
+  border-bottom: 1px solid green;
+  color: var(--blanco);
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 50px;
+  outline: none;
+}
+
+.trending .products .card .poster-general button:hover{
+  background-color: var(--turquesa-hover2);
+}
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-gold-mandala-spiritual-yoga-tshirt_360x.jpg);
+}
+
+.ts8{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/7-chakra-mandala-spiritual-yoga-tshirt_360x.jpg);
+}
+
+/* EStilos de promo */
+
+.promo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--negro-promo);
+  color: var(--blanco);
+  height: 500px;
+  width: 100%;
+}
+
+.promo p:first-child{
+  font-size: 1.8rem;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+
+.promo p:nth-child(0n+2){
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom:30px;
+}
+
+.promo .info-turq{
+  color: var(--turquesa-btn);
+}
+
+.promo button{
+  background-color: var(--negro-promo);
+  border: 1px solid var(--blanco);
+  color: var(--blanco);
+  font-size: 1rem;
+  height: 50px;
+  letter-spacing: 2px;
+  outline: none;
+  width: 170px;
+}
+
+.promo button:hover{
+  background-color: var(--turquesa-btn);
+  border: none;
+  transition: all .3s ease-in;
 }
