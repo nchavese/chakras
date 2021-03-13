@@ -428,20 +428,7 @@ html{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/fuelled-by-coffee-and-crystals-white-spiritual-tshirt_360x.jpg);
 }
 
-.ts7{.trending .products .card .poster-general button{
-  background-color: var(--turquesa-btn);
-  border: none;
-  border-bottom: 1px solid green;
-  color: var(--blanco);
-  font-size: 1.2rem;
-  font-weight: bold;
-  height: 50px;
-  outline: none;
-}
-
-.trending .products .card .poster-general button:hover{
-  background-color: var(--turquesa-hover2);
-}
+.ts7{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-gold-mandala-spiritual-yoga-tshirt_360x.jpg);
 }
 
@@ -458,7 +445,7 @@ html{
   align-items: center;
   background-color: var(--negro-promo);
   color: var(--blanco);
-  height: 500px;
+  height: 667px;
   width: 100%;
 }
 
