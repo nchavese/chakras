@@ -318,3 +318,98 @@ html{
   border: 2px solid var(--negro-general);
   transition: all .1s ease-in;
 }
+
+.trending .shirts {
+  display: flex;
+}
+
+.trending .shirts .card{
+  border: 2px solid red;
+  height: 475px;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 44%;
+  min-width: 44%;
+}
+
+.trending .shirts .card .poster-general{
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.trending .shirts .card .poster-general button{
+  background-color: var(--turquesa-btn);
+  border: none;
+  border-bottom: 1px solid green;
+  color: var(--blanco);
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 50px;
+  outline: none;
+}
+
+.trending .shirts .card .poster-general button:hover{
+  background-color: var(--turquesa-hover2);
+}
+
+.trending .shirts .card .poster-general .upper-info{
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding-general);
+  padding-top: 10px;
+
+}
+
+.trending .shirts .card .poster-general .upper-info button{
+  background: var(--naranja);
+  border: none;
+  color: var(--blanco);
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+}
+
+.trending .shirts .card .poster-general .upper-info .image-container {
+  height: 20px;
+  width: 24px;
+  margin-right: 10%;
+}
+
+.trending .shirts .card .poster-general .upper-info .image-container img {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border: 20px solid var(--blanco);
+  border-radius: 100%;
+}
+
+.trending .shirts .card .down-info{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.trending .shirts .card .down-info p{
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+.trending .shirts .card .down-info p:first-child{
+  font-weight: bold;
+}
+
+.trending .shirts .card .ts1{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-affirmations-spiritual-tshirt_360x.jpg);
+}
+
+.trending .shirts .card .ts2{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-affirmations-white-spiritual-tshirt_360x.jpg);
+}
+
+.trending .shirts .card .ts3{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakras-aligned-spiritual-t-shirt_7-chakra-shirt_360x.jpg);
+}
