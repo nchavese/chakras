@@ -450,13 +450,13 @@ html{
 }
 
 .promo p:first-child{
-  font-size: 1.8rem;
+  font-size: 3rem;
   font-style: italic;
   padding-bottom: 30px;
 }
 
 .promo p:nth-child(0n+2){
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bolder;
   text-align: center;
   padding-bottom:30px;
