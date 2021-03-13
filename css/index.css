@@ -152,6 +152,7 @@ html{
   font-size: 1.5rem;
   font-weight: bold;
   height: 80px;
+  outline: none;
 }
 
 .posters .card .poster-general button:hover{
@@ -264,6 +265,7 @@ html{
   letter-spacing: 2px;
   color: var(--turquesa-btn);
   height: 70px;
+  outline: none;
   width: 450px;
 }
 
@@ -294,6 +296,7 @@ html{
 .trending .trend-btns button{
   background-color: var(--blanco);
   color: var(--gris-txt-btn);
+  cursor: pointer;
   border: none;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
@@ -301,6 +304,7 @@ html{
   border-bottom-right-radius: 60px;
   font-size: 2rem;
   height: 90px;
+  outline: none;
   width: 150px;
 
 }
