@@ -126,7 +126,7 @@ html{
 }
 
 .posters .card{
-  /* border: 2px solid red; */
+  border: 2px solid red;
   height: 1020px;
   margin-left: 2%;
   margin-right: 2%;
@@ -275,7 +275,6 @@ html{
   cursor: pointer;
   transition: all .2s ease-in;
 }
-
 /* Trending Section */
 
 .trending header{
@@ -320,16 +319,18 @@ html{
 }
 
 .trending .shirts {
+  /* border: 2px solid purple; */
   display: flex;
+  flex-wrap: wrap;
 }
 
 .trending .shirts .card{
-  border: 2px solid red;
+  /* border: 3px solid red; */
   height: 475px;
   margin-left: 2%;
   margin-right: 2%;
   width: 44%;
-  min-width: 44%;
+  padding-bottom: 150px;
 }
 
 .trending .shirts .card .poster-general{
