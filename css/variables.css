@@ -1,11 +1,13 @@
 :root {
     --blanco: #FFFFFF;
     --gris: #969696;
+    --gris-txt-btn: #8C8C8C;
     --rojo-new-price: #D01345;
     --tipografia-principal: 'Poppins', sans-serif;
     --turquesa-btn: #56CFE1;
     --turquesa-hover: #4eb0be;
     --turquesa-hover2: #00d8d6;
     --naranja: #FE9931;
+    --negro-general: #212121;
     --padding-general: 0 4%;
   }

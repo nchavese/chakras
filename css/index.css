@@ -281,3 +281,36 @@ html{
   flex-direction: column;
   align-items: center;
 }
+
+.trending header h2 {
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+}
+
+.trending .trend-btns {
+  padding-bottom: 50px;
+}
+
+.trending .trend-btns button{
+  background-color: var(--blanco);
+  color: var(--gris-txt-btn);
+  border: none;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  font-size: 2rem;
+  height: 90px;
+  width: 150px;
+
+}
+
+.trending .trend-btns:last-child button {
+  width: 180px;
+}
+
+.trending .trend-btns button:hover{
+  color: var(--negro-general);
+  border: 2px solid var(--negro-general);
+  transition: all .1s ease-in;
+}
