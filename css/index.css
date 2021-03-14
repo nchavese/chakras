@@ -1145,3 +1145,25 @@ html{
 .el3{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/files/elephant-is-my-spiritual-animal-coffee-mug-gift_670x.jpg);
 }
+
+/* Estilos Information */
+
+.information .inf {
+  display: flex;
+  padding: var(--padding-general);
+  padding-bottom: 50px;
+}
+
+.information .inf .image-container{
+  padding-right: 2%;
+}
+
+.information .inf .inf-x h2{
+  font-size: 1.7rem;
+  padding-bottom: 20px;
+}
+
+.information .inf .inf-x p{
+  font-size: 1.5rem;
+  color: var(--gris-elep);
+}
