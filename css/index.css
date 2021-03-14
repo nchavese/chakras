@@ -1065,3 +1065,83 @@ html{
   color: var(--blanco);
   transition: all .3s ease-in;
 }
+
+/* Seccion Elephant */
+
+.elephant{
+  padding-top: 50px;
+}
+
+.elephant header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elephant header h2 {
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+}
+
+.elephant header p {
+  color: var(--gris);
+  font-style: italic;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+
+.elephant .products {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.elephant .products .card{
+  /* border: 2px solid red; */
+  height: 550px;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 45%;
+  padding-bottom: 65px;
+}
+
+.elephant .products .card .poster-general{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.elephant .products .card .poster-general .info{
+  background-color: var(--blanco);
+  color: var(--gris-elep);
+  padding-top: 10px;
+  height: 80px;
+  width: 250px;
+}
+
+.elephant .products .card .poster-general .info p {
+  padding-top: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.el1{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/files/be-kind-elephant-spiritual-unisex-tshirt-apparel-collection_670x.jpg);
+}
+
+.el2{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/files/save-elephants-hoodie-apparel-collection_670x.jpg);
+}
+
+.el3{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/files/elephant-is-my-spiritual-animal-coffee-mug-gift_670x.jpg);
+}
