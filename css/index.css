@@ -1269,8 +1269,13 @@ html{
   color: var(--blanco);
   font-size: 1.3rem;
   font-weight: bold;
+  outline: none;
   height: 50px;
   width: 15%;
+}
+
+.ft .up-ft .ft-subscribe button:hover{
+  background-color: var(--turquesa-hover2);
 }
 
 
