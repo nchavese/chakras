@@ -878,3 +878,190 @@ html{
   cursor: pointer;
   transition: all .2s ease-in;
 }
+
+/* Estilos Face Covers */
+
+.face-covers{
+  padding-top: 50px;
+}
+
+.face-covers header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.face-covers header h2 {
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+}
+
+.face-covers header p {
+  color: var(--gris);
+  font-style: italic;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+
+.face-covers .products {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.face-covers .products .card{
+  height: 550px;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 44%;
+  padding-bottom: 150px;
+}
+
+.face-covers .products .card .poster-general{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.face-covers .products .card .poster-general button{
+  background-color: var(--turquesa-btn);
+  border: none;
+  border-bottom: 1px solid green;
+  color: var(--blanco);
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 50px;
+  outline: none;
+}
+
+.face-covers .products .card .poster-general button:hover{
+  background-color: var(--turquesa-hover2);
+}
+
+.face-covers .products .card .poster-general .upper-info{
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding-general);
+  padding-top: 10px;
+
+}
+
+.face-covers .products .card .poster-general .upper-info button{
+  background: var(--naranja);
+  border: none;
+  color: var(--blanco);
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+}
+
+.face-covers .products .card .poster-general .upper-info .image-container {
+  height: 20px;
+  width: 24px;
+  margin-right: 10%;
+}
+
+.face-covers .products .card .poster-general .upper-info .image-container img {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border: 20px solid var(--blanco);
+  border-radius: 100%;
+}
+
+.face-covers .products .card .down-info{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.face-covers .products .card .down-info p{
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+.face-covers .products .card .down-info p:first-child{
+  font-weight: bold;
+}
+
+.fc1{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/mockup_Front_Mens_White_d2d22a0d-2ee3-470c-b844-5f548d116725_360x.jpg);
+}
+
+.fc2{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/mockup-a6e51875_360x.jpg);
+}
+
+.fc3{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/mockup_Front_Mens_White_b91c2381-69e5-411e-b389-139d06ee4494_360x.jpg);
+}
+
+.fc4{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/mockup-e238ba83_360x.jpg);
+}
+
+.fc5{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/mockup-d9a06d8f_360x.jpg);
+}
+
+.fc6{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/mockup_Front_Womens_White_360x.jpg);
+}
+
+.fc7{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/mockup-37fcb937_360x.jpg);
+}
+
+/* Estilos Seccion Sign Up */
+
+.signup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--negro-promo);
+  color: var(--blanco);
+  height: 650px;
+  width: 100%;
+}
+
+.signup h2{
+  font-size: 3rem;
+  padding-bottom: 60px;
+}
+
+.signup input{
+  background-color: var(--negro-promo);
+  border: none;
+  border-bottom: 2px solid var(--blanco);
+  color: var(--blanco);
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  outline: none;
+  padding-bottom:10px;
+  width: 700px;
+}
+
+.signup button{
+  background-color: var(--negro-promo);
+  border: 1px solid var(--turquesa-btn);
+  color: var(--turquesa-btn);
+  font-size: 1rem;
+  height: 50px;
+  letter-spacing: 2px;
+  outline: none;
+  margin-top: 40px;
+  width: 170px;
+}
+
+.signup button:hover{
+  background-color: var(--turquesa-btn);
+  border: none;
+  color: var(--blanco);
+  transition: all .3s ease-in;
+}
