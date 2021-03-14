@@ -7,6 +7,10 @@ html{
   text-decoration: line-through;
 }
 
+.bold{
+  font-weight: bold
+}
+
 .new-price{
   color: var(--rojo-new-price);
   font-weight: bold;
@@ -481,4 +485,313 @@ html{
   background-color: var(--turquesa-btn);
   border: none;
   transition: all .3s ease-in;
+}
+
+/* Estilos Tapestry */
+
+.tapestry {
+  padding-top: 50px;
+}
+
+.tapestry header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tapestry header h2 {
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+}
+
+.tapestry header p {
+  color: var(--gris);
+  font-style: italic;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+
+.tapestry .products {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.tapestry .products .card{
+  height: 550px;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 44%;
+  padding-bottom: 150px;
+}
+
+.tapestry .products .card .poster-general{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.tapestry .products .card .poster-general button{
+  background-color: var(--turquesa-btn);
+  border: none;
+  border-bottom: 1px solid green;
+  color: var(--blanco);
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 50px;
+  outline: none;
+}
+
+.tapestry .products .card .poster-general button:hover{
+  background-color: var(--turquesa-hover2);
+}
+
+.tapestry .products .card .poster-general .upper-info{
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding-general);
+  padding-top: 10px;
+
+}
+
+.tapestry .products .card .poster-general .upper-info button{
+  background: var(--naranja);
+  border: none;
+  color: var(--blanco);
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+}
+
+.tapestry .products .card .poster-general .upper-info .image-container {
+  height: 20px;
+  width: 24px;
+  margin-right: 10%;
+}
+
+.tapestry .products .card .poster-general .upper-info .image-container img {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border: 20px solid var(--blanco);
+  border-radius: 100%;
+}
+
+.tapestry .products .card .down-info{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.tapestry .products .card .down-info p{
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+.tapestry .products .card .down-info p:first-child{
+  font-weight: bold;.posters .card
+}
+
+.tp1{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-wall-tapestry_7-chakras-wall-hanging-decor_720x.jpg);
+}
+
+.tp2{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakras-wall-tapestry_7-chakra-wall-hanging-home-decor_360x.jpg);
+}
+
+.tp3{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-tapestry_7-chakras-wall-hanging-tapestry_360x.jpg);
+}
+
+.tp4{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/sun-and-moon-black-and-white-wall-tapestry-home-decor_360x.jpg);
+}
+
+.tp5{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/yin-yang-mandala-black-white-wall-tapestry_360x.jpg);
+}
+
+.tp6{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/yin-yang-mandala-wall-tapestry_360x.jpg);
+}
+
+.tp7{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/sun-and-moon-black-zodiac-mandala-wall-tapestry_360x.jpg);
+}
+
+.tp8{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/12-constellations-zodiac-horoscope-mandala-wall-tapestry_360x.jpg);
+}
+
+/* Seccion Rosada */
+
+.pnksct{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--rosado-seccion);
+  color: var(--blanco);
+  height: 650px;
+  text-align: center;
+  width: 100%;
+}
+
+.pnksct h2{
+  font-size: 4rem;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.pnksct p{
+  font-size: 2rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 50px;
+}
+
+/* Seccion Coffe Mugs */
+
+.mugs{
+  padding-top: 50px;
+}
+
+.mugs header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mugs header h2 {
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+}
+
+.mugs header p {
+  color: var(--gris);
+  font-style: italic;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+
+.mugs .products {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.mugs .products .card{
+  height: 550px;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 44%;
+  padding-bottom: 150px;
+}
+
+.mugs .products .card .poster-general{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.mugs .products .card .poster-general button{
+  background-color: var(--turquesa-btn);
+  border: none;
+  border-bottom: 1px solid green;
+  color: var(--blanco);
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 50px;
+  outline: none;
+}
+
+.mugs .products .card .poster-general button:hover{
+  background-color: var(--turquesa-hover2);
+}
+
+.mugs .products .card .poster-general .upper-info{
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding-general);
+  padding-top: 10px;
+
+}
+
+.mugs .products .card .poster-general .upper-info button{
+  background: var(--naranja);
+  border: none;
+  color: var(--blanco);
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+}
+
+.mugs .products .card .poster-general .upper-info .image-container {
+  height: 20px;
+  width: 24px;
+  margin-right: 10%;
+}
+
+.mugs .products .card .poster-general .upper-info .image-container img {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border: 20px solid var(--blanco);
+  border-radius: 100%;
+}
+
+.mugs .products .card .down-info{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.mugs .products .card .down-info p{
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+.mugs .products .card .down-info p:first-child{
+  font-weight: bold;.posters .card
+}
+
+.mug1{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-affirmations-black-coffee-mug_7-chakras-mug_360x.jpg);
+}
+
+.mug2{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakra-affirmations-coffee-mug_360x.jpg);
+}
+
+.mug3{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakras-golden-mandala-coffee-mug_360x.jpg);
+}
+
+.mug4{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/chakras-lotus-mandala-coffee-mug-gift_360x.jpg);
+}
+
+.mug5{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/namaste-mandala-golden-black-spiritual-mug_87d18538-bd99-4aa1-a1f8-d4c9a611c012_360x.jpg);
+}
+
+.mug6{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/namaste-spiritual-mug-gift_360x.jpg);
+}
+
+.mug7{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/crystal-queen-spiritual-mug_360x.jpg);
+}
+
+.mug8{
+  background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/spiritual-gangsta-mug_360x.jpg);
 }
