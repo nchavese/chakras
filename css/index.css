@@ -974,7 +974,7 @@ html{
 }
 
 .face-covers .products .card .poster-general .upper-info .image-container img {
-  background-color: white;
+  background-color: var(--blanco);
   height: 100%;
   width: 100%;
   border: 20px solid var(--blanco);
