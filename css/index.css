@@ -412,7 +412,7 @@ html{
 }
 
 .trending .products .card .down-info p:first-child{
-  font-weight: bold;.posters .card
+  font-weight: bold;
 }
 
 .ts1{
@@ -600,7 +600,7 @@ html{
 }
 
 .tapestry .products .card .down-info p:first-child{
-  font-weight: bold;.posters .card
+  font-weight: bold;
 }
 
 .tp1{
@@ -820,10 +820,6 @@ html{
 
 .blog header h2{
   font-size: 2rem;
-}
-
-.blog-group{
-  /* border: 2px solid red; */
 }
 
 .blog .blog-group .blog-info{
@@ -1325,641 +1321,635 @@ html{
 /* Media Querys */
 
 @media only screen and (min-width: 768px){
-
-
-/* Nav Var */
-
   #header-principal .superior .derecho{
-    width: 250px;
+  width: 250px;
   }
 
   #header-principal .superior .derecho .image-container{
-    height: 20px;
-    width: 40px;
+  height: 20px;
+  width: 40px;
   }
 
   #header-principal .superior .logo{
-      height: 40px;
-      width: 50px;
+    height: 40px;
+    width: 50px;
   }
 
   #header-principal .superior .logo-central{
-      height: 80px;
-      width: 80px;
+    height: 80px;
+    width: 80px;
   }
 
   #header-principal .superior .derecho .hide{
-    display: block;
+  display: block;
   }
 
 
   /* Estilos Posters */
 
   .posters .card-group{
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   }
 
   .posters .card{
-    /* border: 2px solid red; */
-    height: 320px;
-    width: 28%;
+  height: 320px;
+  width: 28%;
   }
 
-    .posters .card .poster-general button{
-    font-size: 1rem;
-    font-weight: bold;
-    height: 50px;
+  .posters .card .poster-general button{
+  font-size: 1rem;
+  font-weight: bold;
+  height: 50px;
   }
 
 
   .posters .card .poster-general .upper-info button{
-    font-size: 0.775rem;
-    height: 30px;
-    width: 80px;
+  font-size: 0.775rem;
+  height: 30px;
+  width: 80px;
   }
 
   .posters .card .poster-general .upper-info .image-container {
-    height: 15px;
-    width: 18px;
-    margin-right: 8%;
+  height: 15px;
+  width: 18px;
+  margin-right: 8%;
   }
 
   .posters .card .poster-general .upper-info .image-container img {
-    border: 12px solid var(--blanco);
+  border: 12px solid var(--blanco);
   }
 
   .posters .card .down-info{
-    padding-top: 20px;
-    padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
   }
 
   .posters .card .down-info .stars{
-    height: 15px;
-    width: 100px;
-    padding-top: 20px;
+  height: 15px;
+  width: 100px;
+  padding-top: 20px;
   }
 
   .posters .card .down-info .stars h2{
-    font-size: 1rem;
+  font-size: 1rem;
   }
 
   .posters .card .down-info p{
-    font-size: 1.1rem;
+  font-size: 1.1rem;
   }
 
 
   .posters .card .poster-general button{
-    font-size: 1rem;
-    font-weight: bold;
-    height: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 50px;
   }
 
 
   .posters .card .poster-general .upper-info button{
-    font-size: 0.775rem;
-    height: 30px;
-    width: 80px;
+  font-size: 0.775rem;
+  height: 30px;
+  width: 80px;
   }
 
   .posters .card .poster-general .upper-info .image-container {
-    height: 15px;
-    width: 18px;
-    margin-right: 8%;
+  height: 15px;
+  width: 18px;
+  margin-right: 8%;
   }
   .promo button:hover{
-    background-color: var(--turquesa-btn);
-    border: none;
-    transition: all .3s ease-in;
+  background-color: var(--turquesa-btn);
+  border: none;
+  transition: all .3s ease-in;
   }
 
   .posters .card .poster-general .upper-info .image-container img {
-    border: 12px solid var(--blanco);
+  border: 12px solid var(--blanco);
   }
 
   .posters .card .down-info{
-    padding-top: 20px;
-    padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
   }
 
   .posters .card .down-info .stars{
-    height: 15px;
-    width: 100px;
-    padding-top: 20px;
+  height: 15px;
+  width: 100px;
+  padding-top: 20px;
   }
 
   .posters .card .down-info .stars h2{
-    font-size: 1rem;
+  font-size: 1rem;
   }
 
   .posters .card .down-info p{
-    font-size: 1.1rem;
+  font-size: 1.1rem;
   }
 
 
   .btn-load button{
-    font-size: 0.6875rem;
-    height: 50px;
-    width: 300px;
+  font-size: 0.6875rem;
+  height: 50px;
+  width: 300px;
   }
 
 
   /* Trending */
 
   .trending header h2 {
-    font-size: 1.25rem;
-    padding-bottom: 30px;
+  font-size: 1.25rem;
+  padding-bottom: 30px;
   }
 
 
   .trending .trend-btns button{
-    font-size: 0.9375rem;
-    height: 50px;
-    width: 120px;
+  font-size: 0.9375rem;
+  height: 50px;
+  width: 120px;
 
   }
 
   .trending .trend-btns:last-child button {
-    width: 120px;
+  width: 120px;
   }
 
 
   .trending .products .card{
-    height: 322px;
-    width: 28%;
-    padding-bottom: 150px;
+  height: 322px;
+  width: 28%;
+  padding-bottom: 150px;
   }
 
   .trending .products .card .poster-general button{
-    font-size: 1rem;
-    height: 50px;
+  font-size: 1rem;
+  height: 50px;
   }
 
 
   .trending .products .card .poster-general .upper-info button{
-    font-size: 0.775rem;
-    height: 30px;
-    width: 80px;
+  font-size: 0.775rem;
+  height: 30px;
+  width: 80px;
   }
 
   .trending .products .card .poster-general .upper-info .image-container {
-    height: 15px;
-    width: 18px;
-    margin-right: 8%;
+  height: 15px;
+  width: 18px;
+  margin-right: 8%;
   }
 
   .trending .products .card .poster-general .upper-info .image-container img {
-    border: 12px solid var(--blanco);
+  border: 12px solid var(--blanco);
   }
 
   .trending .products .card .down-info{
-    padding-top: 20px;
-    padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
   }
 
   .trending .products .card .down-info .stars{
-    height: 15px;
-    width: 100px;
-    padding-top: 20px;
+  height: 15px;
+  width: 100px;
+  padding-top: 20px;
   }
 
   .trending .products .card .down-info .stars h2{
-    font-size: 1rem;
+  font-size: 1rem;
   }
 
   .trending .products .card .down-info p{
-    font-size: 1.1rem;
+  font-size: 1.1rem;
   }
 
   /* EStilos de promo */
 
   .promo{
-    height: 320px;
-    width: 100%;
+  height: 320px;
+  width: 100%;
   }
 
   .promo p:first-child{
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 
   }
 
   .promo p:nth-child(0n+2){
-    font-size: 3.125rem;
+  font-size: 3.125rem;
 
   }
 
   .promo .info-turq{
-    color: var(--turquesa-btn);
+  color: var(--turquesa-btn);
   }
 
   .promo button{
-    font-size: 0.875rem;
-    height: 45px;
-    width: 150px;
+  font-size: 0.875rem;
+  height: 45px;
+  width: 150px;
   }
 
   /* Estilos Tapestry */
 
   .tapestry header h2 {
-    font-size: 1.25rem;
-    padding-bottom: 30px;
+  font-size: 1.25rem;
+  padding-bottom: 30px;
   }
 
   .tapestry header p{
-    font-size: 0.875rem;
+  font-size: 0.875rem;
   }
 
 
   .tapestry .products .card{
-    /* border: 3px solid red; */
-    height: 322px;
-    width: 28%;
-    padding-bottom: 150px;
+  height: 322px;
+  width: 28%;
+  padding-bottom: 150px;
   }
 
   .tapestry .card .poster-general button{
-    font-size: 1rem;
-    font-weight: bold;
-    height: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 50px;
   }
 
 
   .tapestry .products .card .poster-general .upper-info button{
-    font-size: 0.775rem;
-    height: 30px;
-    width: 80px;
+  font-size: 0.775rem;
+  height: 30px;
+  width: 80px;
   }
 
   .tapestry .products .card .poster-general .upper-info .image-container {
-    height: 15px;
-    width: 18px;
-    margin-right: 8%;
+  height: 15px;
+  width: 18px;
+  margin-right: 8%;
   }
 
   .tapestry .products .card .poster-general .upper-info .image-container img {
-    border: 12px solid var(--blanco);
+  border: 12px solid var(--blanco);
   }
 
   .tapestry .products .card .down-info{
-    padding-top: 20px;
-    padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
   }
 
   .tapestry .products .card .down-info .stars{
-    height: 15px;
-    width: 100px;
-    padding-top: 20px;
+  height: 15px;
+  width: 100px;
+  padding-top: 20px;
   }
 
   .tapestry .products .card .down-info .stars h2{
-    font-size: 1rem;
+  font-size: 1rem;
   }
 
   .tapestry .products .card .down-info p{
-    font-size: 1.1rem;
+  font-size: 1.1rem;
   }
 
 
-/* pink Section */
+  /* pink Section */
   .pnksct{
-    height: 300px;
-    width: 100%;
+  height: 300px;
+  width: 100%;
   }
 
   .pnksct h2{
-    font-size: 3.75rem;
-    padding-bottom: 30px;
+  font-size: 3.75rem;
+  padding-bottom: 30px;
   }
 
   .pnksct p{
-    font-size: 1.125rem;
+  font-size: 1.125rem;
   }
 
-/* Coffe Mugs */
+  /* Coffe Mugs */
 
-.mugs header h2 {
+  .mugs header h2 {
   font-size: 1.25rem;
   padding-bottom: 30px;
-}
+  }
 
-.mugs header p{
+  .mugs header p{
   font-size: 0.875rem;
-}
+  }
 
 
-.mugs .products .card{
+  .mugs .products .card{
   /* border: 3px solid red; */
   height: 322px;
   width: 28%;
   padding-bottom: 150px;
-}
+  }
 
-.mugs .products .card .poster-general button{
+  .mugs .products .card .poster-general button{
   font-size: 1rem;
   height: 50px;
-}
+  }
 
 
-.mugs .products .card .poster-general .upper-info button{
+  .mugs .products .card .poster-general .upper-info button{
   font-size: 0.775rem;
   height: 30px;
   width: 80px;
-}
+  }
 
-.mugs .products .card .poster-general .upper-info .image-container {
+  .mugs .products .card .poster-general .upper-info .image-container {
   height: 15px;
   width: 18px;
   margin-right: 8%;
-}
+  }
 
-.mugs .products .card .poster-general .upper-info .image-container img {
+  .mugs .products .card .poster-general .upper-info .image-container img {
   border: 12px solid var(--blanco);
-}
+  }
 
-.mugs .products .card .down-info{
+  .mugs .products .card .down-info{
   padding-top: 20px;
   padding-bottom: 50px;
-}
+  }
 
-.mugs .products .card .down-info .stars{
+  .mugs .products .card .down-info .stars{
   height: 15px;
   width: 100px;
   padding-top: 20px;
-}
+  }
 
-.mugs .products .card .down-info .stars h2{
+  .mugs .products .card .down-info .stars h2{
   font-size: 1rem;
-}
+  }
 
-.mugs .products .card .down-info p{
+  .mugs .products .card .down-info p{
   font-size: 1.1rem;
-}
+  }
 
 
-/* Blog Section */
+  /* Blog Section */
 
-.blog header h2{
+  .blog header h2{
   font-size: 1.25rem;
-}
+  }
 
-.blog-group{
+  .blog-group{
   display: flex;
   flex-wrap: wrap;
-}
+  }
 
-.blog .blog-group .blog-info{
-width: 45%;
-}
+  .blog .blog-group .blog-info{
+  width: 45%;
+  }
 
-.blog .blog-group .blog-info .image-container{
+  .blog .blog-group .blog-info .image-container{
   /* border: 2px solid green; */
   height: 300px;
   width: 100%;
-}
+  }
 
-.blog .blog-group .blog-info .image-container img{
+  .blog .blog-group .blog-info .image-container img{
   height: 100%;
   width: 100%;
-}
+  }
 
-.blog .blog-group .blog-info h2 {
+  .blog .blog-group .blog-info h2 {
   font-size: 1rem;
-}
+  }
 
-.blog .blog-group .blog-info p{
+  .blog .blog-group .blog-info p{
   font-size: 0.9375rem;
-}
+  }
 
-.btn-more button{
+  .btn-more button{
   font-size: 0.6875rem;
   height: 50px;
   width: 170px;
-}
+  }
 
-.btn-more button:hover{
+  .btn-more button:hover{
   background-color: var(--turquesa-btn);
   color: var(--blanco);
   cursor: pointer;
   transition: all .2s ease-in;
-}
+  }
 
-/* face Covering */
-.face-covers header h2 {
+  /* face Covering */
+  .face-covers header h2 {
   font-size: 1.25rem;
   padding-bottom: 30px;
-}
+  }
 
-.face-covers header p{
+  .face-covers header p{
   font-size: 0.875rem;
-}
+  }
 
 
-.face-covers .products .card{
+  .face-covers .products .card{
   height: 322px;
   width: 28%;
   padding-bottom: 150px;
-}
+  }
 
-.face-covers .products .card .poster-general button{
+  .face-covers .products .card .poster-general button{
   font-size: 1rem;
   height: 50px;
-}
+  }
 
 
-.face-covers .products .card .poster-general .upper-info button{
+  .face-covers .products .card .poster-general .upper-info button{
   font-size: 0.775rem;
   height: 30px;
   width: 80px;
-}
+  }
 
-.face-covers .products .card .poster-general .upper-info .image-container {
+  .face-covers .products .card .poster-general .upper-info .image-container {
   height: 15px;
   width: 18px;
   margin-right: 8%;
-}
+  }
 
-.face-covers .products .card .poster-general .upper-info .image-container img {
+  .face-covers .products .card .poster-general .upper-info .image-container img {
   border: 12px solid var(--blanco);
-}
+  }
 
-.face-covers .products .card .down-info{
+  .face-covers .products .card .down-info{
   padding-top: 20px;
   padding-bottom: 50px;
-}
+  }
 
-.face-covers .products .card .down-info .stars{
+  .face-covers .products .card .down-info .stars{
   height: 15px;
   width: 100px;
   padding-top: 20px;
-}
+  }
 
-.face-covers .products .card .down-info .stars h2{
+  .face-covers .products .card .down-info .stars h2{
   font-size: 1rem;
-}
+  }
 
-.face-covers .products .card .down-info p{
+  .face-covers .products .card .down-info p{
   font-size: 1.1rem;
-}
+  }
 
-/* SignUP */
+  /* SignUP */
 
-.signup{
+  .signup{
   height: 280px;
-}
+  }
 
-.signup h2{
+  .signup h2{
   font-size: 1.625rem;
   padding-bottom: 20px;
-}
+  }
 
-.signup input{
+  .signup input{
     font-size: 1.125rem;
   padding-bottom:10px;
   width: 500px;
-}
+  }
 
-.signup button{
+  .signup button{
   font-size: 0.6875rem;
   height: 40px;
   width: 120px;
-}
+  }
 
-/* elephant section */
+  /* elephant section */
 
 
-.elephant header h2 {
+  .elephant header h2 {
   font-size: 1.25rem;
-}
+  }
 
-.elephant header p {
+  .elephant header p {
   font-size: 0.875rem;
-}
+  }
 
-.elephant .products .card{
+  .elephant .products .card{
   height: 250px;
   width: 28%;
   padding-bottom: 65px;
-}
+  }
 
-.elephant .products .card .poster-general .info{
+  .elephant .products .card .poster-general .info{
   padding-top: 10px;
   height: 80px;
   width: 150px;
-}
+  }
 
-.elephant .products .card .poster-general .info p {
+  .elephant .products .card .poster-general .info p {
   font-size: 0.9375rem;
-}
+  }
 
 
-/* Information */
+  /* Information */
 
-.information {
+  .information {
   display: flex;
   justify-content: space-around;
-}
+  }
 
-.information .inf{
+  .information .inf{
   padding:1px;
   height: 200px;
   line-height: 30px;
-}
+  }
 
-.information .inf .image-container{
+  .information .inf .image-container{
   height: 50px;
   width: 50px;
   padding-right: 10px;
 
-}
+  }
 
 
-.information .inf .inf-x{
+  .information .inf .inf-x{
   display: flex;
   flex-direction: column;
   width: 100px;
-}
+  }
 
-.information .inf .inf-x h2{
+  .information .inf .inf-x h2{
   font-size: 0.875rem;
-}
+  }
 
-.information .inf .inf-x p{
+  .information .inf .inf-x p{
   font-size: 0.9375rem;
-}
+  }
 
-/* Footer */
+  /* Footer */
 
-.ft{
+  .ft{
   margin-top: 60px;
-}
+  }
 
-.ft .up-ft{
+  .ft .up-ft{
   display: flex;
   flex-wrap: wrap;
-}
+  }
 
-.ft .image-container{
+  .ft .image-container{
   height: 20px;
   width: 20px;
-}
+  }
 
 
-.ft .up-ft .touch{
+  .ft .up-ft .touch{
   width: 48%;
-}
-.ft .up-ft .ft-information{
+  }
+  .ft .up-ft .ft-information{
   width: 48%;
-}
+  }
 
-.ft .up-ft .ft-subscribe{
+  .ft .up-ft .ft-subscribe{
   width: 50%;
-}
+  }
 
-.ft .up-ft .ft-subscribe p{
+  .ft .up-ft .ft-subscribe p{
   color: var(--gris-foot);
   padding-bottom: 50px;
-}
+  }
 
-.ft .up-ft .ft-subscribe input {
+  .ft .up-ft .ft-subscribe input {
   font-size: 0.8125rem;
   height: 45px;
   width: 70%;
-}
+  }
 
-.ft .up-ft .ft-subscribe button{
+  .ft .up-ft .ft-subscribe button{
   font-size: 0.8125rem;
   height: 40px;
   width: 25%;
 
-}
+  }
 
 
 
 
-.ft .down-ft {
+  .ft .down-ft {
   height: 100px;
-}
+  }
 
-.ft .down-ft .inf{
+  .ft .down-ft .inf{
   display: flex;
   align-items: center;
-}
+  }
 
 
-.ft .down-ft .inf .image-container{
+  .ft .down-ft .inf .image-container{
   padding-right: 15px;
-}
+  }
 
-.ft .down-ft .icons{
+  .ft .down-ft .icons{
   display: flex;
   width: 100%;
   justify-content: flex-end;
-}
+  }
 
-.ft .down-ft .icons .image-container{
+  .ft .down-ft .icons .image-container{
   height: 35px;
   width: 35px;
-}
+  }
 
 
 }  /*End Media Query*/
