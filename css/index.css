@@ -1370,13 +1370,13 @@ html{
   width: 80px;
   }
 
-  .posters .card .poster-general .upper-info .image-container {
+  .posters .card .poster-general .upper-info .image-container{
   height: 15px;
   width: 18px;
   margin-right: 8%;
   }
 
-  .posters .card .poster-general .upper-info .image-container img {
+  .posters .card .poster-general .upper-info .image-container img{
   border: 12px solid var(--blanco);
   }
 
@@ -1413,7 +1413,7 @@ html{
   width: 80px;
   }
 
-  .posters .card .poster-general .upper-info .image-container {
+  .posters .card .poster-general .upper-info .image-container{
   height: 15px;
   width: 18px;
   margin-right: 8%;
@@ -1424,7 +1424,7 @@ html{
   transition: all .3s ease-in;
   }
 
-  .posters .card .poster-general .upper-info .image-container img {
+  .posters .card .poster-general .upper-info .image-container img{
   border: 12px solid var(--blanco);
   }
 
@@ -1470,7 +1470,7 @@ html{
 
   }
 
-  .trending .trend-btns:last-child button {
+  .trending .trend-btns:last-child button{
   width: 120px;
   }
 
@@ -1493,13 +1493,13 @@ html{
   width: 80px;
   }
 
-  .trending .products .card .poster-general .upper-info .image-container {
+  .trending .products .card .poster-general .upper-info .image-container{
   height: 15px;
   width: 18px;
   margin-right: 8%;
   }
 
-  .trending .products .card .poster-general .upper-info .image-container img {
+  .trending .products .card .poster-general .upper-info .image-container img{
   border: 12px solid var(--blanco);
   }
 
@@ -1923,9 +1923,6 @@ html{
 
   }
 
-
-
-
   .ft .down-ft {
   height: 100px;
   }
@@ -1934,7 +1931,6 @@ html{
   display: flex;
   align-items: center;
   }
-
 
   .ft .down-ft .inf .image-container{
   padding-right: 15px;
@@ -1950,6 +1946,5 @@ html{
   height: 35px;
   width: 35px;
   }
-
 
 }  /*End Media Query*/
