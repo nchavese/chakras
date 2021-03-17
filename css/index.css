@@ -141,18 +141,24 @@ html{
   font-size: 0.875rem;
 }
 
+.card-group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .posters .card{
-  /* border: 2px solid red; */
+  border: 2px solid red;
   height: 600px;
   margin-left: 2%;
-  margin-right: 2%;
   width: 96%;
   padding-bottom: 200px;
 }
 
 .posters .card .poster-general{
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
