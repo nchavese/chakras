@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html{
     font-family: var(--tipografia-principal);
     font-size: 16px;
@@ -24,14 +28,13 @@ html{
 #header-principal .superior{
     align-items: center;
     display: flex;
-    height: 160px;
+    height: 100px;
     justify-content: space-between;
     padding: var(--padding-general);
 }
 
 #header-principal .superior .logo{
-    height: 60px;
-    width: 70px;
+    height: 30px;
 }
 
 #header-principal .superior .logo img{
@@ -40,8 +43,8 @@ html{
 }
 
 #header-principal .superior .logo-central{
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
 }
 
 #header-principal .superior .logo-central img{
@@ -51,14 +54,14 @@ html{
 
 #header-principal .superior .derecho{
   display: flex;
-  height: 60px;
+  height: 30px;
   justify-content: space-around;
-  width: 150px;
+  width: 100px;
 }
 
 #header-principal .superior .derecho .image-container{
   height: 30px;
-  width: 60px;
+  width: 30px;
 }
 
 #header-principal .superior .derecho .image-container img{
