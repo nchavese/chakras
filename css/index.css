@@ -91,7 +91,6 @@ html{
   align-items: center;
   display: flex;
   flex-direction: column;
-  /* padding: var(--padding-general) */
 }
 
 .banner .banner-info h1{
@@ -100,6 +99,7 @@ html{
   font-weight: bolder;
   padding-bottom: 20px;
   padding-top: 50px;
+  text-align: center;
 }
 
 .banner .banner-info button {
