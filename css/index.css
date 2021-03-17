@@ -26,7 +26,6 @@ html{
 }
 
 #header-principal .superior{
-  border: 3px solid green;
     align-items: center;
     display: flex;
     height: 100px;
@@ -92,7 +91,7 @@ html{
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-general)
+  /* padding: var(--padding-general) */
 }
 
 .banner .banner-info h1{
