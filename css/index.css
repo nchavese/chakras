@@ -26,12 +26,12 @@ html{
 }
 
 #header-principal .superior{
-  border: 2px solid red;
     align-items: center;
     display: flex;
     height: 100px;
+    max-height: 100px;
     justify-content: space-between;
-    /* padding: var(--padding-general); */
+    padding: var(--padding-general);
 }
 
 #header-principal .superior .logo{
@@ -79,10 +79,11 @@ html{
   align-items: center;
   background-image: url(../imgs/main_banner.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 400px;
   justify-content: center;
 }
 
