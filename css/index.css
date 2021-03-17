@@ -26,11 +26,12 @@ html{
 }
 
 #header-principal .superior{
+  border: 2px solid red;
     align-items: center;
     display: flex;
     height: 100px;
     justify-content: space-between;
-    padding: var(--padding-general);
+    /* padding: var(--padding-general); */
 }
 
 #header-principal .superior .logo{
@@ -1052,7 +1053,7 @@ html{
   text-align: center;
   outline: none;
   padding-bottom:10px;
-  width: 600px;
+  width: inherit;
 }
 
 .signup button{
