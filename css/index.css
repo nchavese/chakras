@@ -851,14 +851,12 @@ html{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  /* border: 2px solid purple; */
   margin-left: 2%;
   margin-right: 2%;
   padding-bottom: 40px;
 }
 
 .blog .blog-group .blog-info .image-container{
-  /* border: 2px solid green; */
   height: 450px;
   width: 96%;
 }
@@ -1125,7 +1123,6 @@ html{
 }
 
 .elephant .products .card{
-  /* border: 2px solid red; */
   height: 300px;
   margin-left: 2%;
   margin-right: 2%;
@@ -1326,6 +1323,7 @@ html{
 }
 
 .ft .down-ft .inf h2{
+  color: var(--gris-foot);
   font-size: 0.9375rem;
 }
 
@@ -1359,23 +1357,24 @@ html{
 /* Media Querys */
 
 @media only screen and (min-width: 768px){
+  
   #header-principal .superior .derecho{
-    width: 250px;
+    width: 150px;
   }
 
   #header-principal .superior .derecho .image-container{
     height: 20px;
-    width: 40px;
+    width: 25px;
   }
 
   #header-principal .superior .logo{
-    height: 40px;
-    width: 50px;
+    height: 20px;
+    width: 30px;
   }
 
   #header-principal .superior .logo-central{
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
   }
 
   #header-principal .superior .derecho .hide{
@@ -1388,103 +1387,64 @@ html{
   .posters .card-group{
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
   }
 
-  .posters .card{
-    height: 320px;
+  .posters .card-group .card{
+    height: 400px;
+    padding-bottom: 20px;
     width: 28%;
   }
 
-  .posters .card .poster-general button{
-    font-size: 1rem;
+  .posters .card-group .card .poster-general {  
+    height: 250px;
+  }
+
+  .posters .card-group .card .poster-general button{
+    font-size: 0.8125rem;
     font-weight: bold;
-    height: 50px;
+    height: 40px;
   }
 
 
-  .posters .card .poster-general .upper-info button{
-    font-size: 0.775rem;
-    height: 30px;
-    width: 80px;
+  .posters .card-group .card .poster-general .upper-info button{
+    font-size: 0.625rem;
+    height: 20px;
+    width: 50px;
   }
 
-  .posters .card .poster-general .upper-info .image-container{
-    height: 15px;
-    width: 18px;
-    margin-right: 8%;
+  .posters .card-group .card .poster-general .upper-info .image-container{
+    height: 40px;
+    width: 40px;
+    margin-right: 2%;
   }
 
-  .posters .card .poster-general .upper-info .image-container img{
+  .posters .card-group .card .poster-general .upper-info .image-container img{
     border: 12px solid var(--blanco);
   }
 
-  .posters .card .down-info{
-    padding-top: 20px;
-    padding-bottom: 50px;
+  .posters .card-group .card .down-info{
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
 
-  .posters .card .down-info .stars{
-    height: 15px;
-    width: 100px;
-    padding-top: 20px;
-  }
-
-  .posters .card .down-info .stars h2{
-    font-size: 1rem;
-  }
-
-  .posters .card .down-info p{
-    font-size: 1.1rem;
-  }
-
-
-  .posters .card .poster-general button{
-    font-size: 1rem;
-    font-weight: bold;
-    height: 50px;
-  }
-
-
-  .posters .card .poster-general .upper-info button{
-    font-size: 0.775rem;
-    height: 30px;
-    width: 80px;
-  }
-
-  .posters .card .poster-general .upper-info .image-container{
-    height: 15px;
-    width: 18px;
-    margin-right: 8%;
-  }
-  .promo button:hover{
-    background-color: var(--turquesa-btn);
-    border: none;
-    transition: all .3s ease-in;
-  }
-
-  .posters .card .poster-general .upper-info .image-container img{
-    border: 12px solid var(--blanco);
-  }
-
-  .posters .card .down-info{
-    padding-top: 20px;
-    padding-bottom: 50px;
-  }
-
-  .posters .card .down-info .stars{
-    height: 15px;
-    width: 100px;
-    padding-top: 20px;
+  .posters .card-group .card .down-info .stars{
+    height: 25px;
+    width: 60px;
+    padding-top: 10px;
   }
 
   .posters .card .down-info .stars h2{
-    font-size: 1rem;
+    font-size: 0.875rem;
+  }
+
+  .posters .card .down-info p:first-child{
+    font-size: 0.8125rem;
   }
 
   .posters .card .down-info p{
-    font-size: 1.1rem;
+    font-size: 0.9375rem;
   }
-
 
   .btn-load button{
     font-size: 0.6875rem;
@@ -1514,27 +1474,27 @@ html{
 
 
   .trending .products .card{
-    height: 322px;
+    height: 425px;
     width: 28%;
     padding-bottom: 150px;
   }
 
   .trending .products .card .poster-general button{
-    font-size: 1rem;
-    height: 50px;
+    font-size: 0.8125rem;
+    height: 40px;
   }
 
 
   .trending .products .card .poster-general .upper-info button{
-    font-size: 0.775rem;
-    height: 30px;
-    width: 80px;
+    font-size: 0.625rem;
+    height: 20px;
+    width: 50px;
   }
 
   .trending .products .card .poster-general .upper-info .image-container{
-    height: 15px;
-    width: 18px;
-    margin-right: 8%;
+    height: 40px;
+    width: 40px;
+    margin-right: 2%;
   }
 
   .trending .products .card .poster-general .upper-info .image-container img{
@@ -1546,19 +1506,14 @@ html{
     padding-bottom: 50px;
   }
 
-  .trending .products .card .down-info .stars{
-    height: 15px;
-    width: 100px;
-    padding-top: 20px;
-  }
-
-  .trending .products .card .down-info .stars h2{
-    font-size: 1rem;
+  .trending .products .card .down-info p:first-child{
+    font-size: 0.8125rem;
   }
 
   .trending .products .card .down-info p{
-    font-size: 1.1rem;
+    font-size: 0.9375rem;
   }
+
 
   /* EStilos de promo */
 
@@ -1594,57 +1549,58 @@ html{
     padding-bottom: 30px;
   }
 
-  .tapestry header p{
-    font-size: 0.875rem;
+
+  .tapestry .trend-btns button{
+    font-size: 0.9375rem;
+    height: 50px;
+    width: 120px;
+
+  }
+
+  .tapestry .trend-btns:last-child button{
+    width: 120px;
   }
 
 
   .tapestry .products .card{
-    height: 322px;
+    height: 480px;
     width: 28%;
     padding-bottom: 150px;
   }
 
-  .tapestry .card .poster-general button{
-    font-size: 1rem;
-    font-weight: bold;
-    height: 50px;
+  .tapestry .products .card .poster-general button{
+    font-size: 0.8125rem;
+    height: 40px;
   }
 
 
   .tapestry .products .card .poster-general .upper-info button{
-    font-size: 0.775rem;
-    height: 30px;
-    width: 80px;
+    font-size: 0.625rem;
+    height: 20px;
+    width: 50px;
   }
 
-  .tapestry .products .card .poster-general .upper-info .image-container {
-    height: 15px;
-    width: 18px;
-    margin-right: 8%;
+  .tapestry .products .card .poster-general .upper-info .image-container{
+    height: 40px;
+    width: 40px;
+    margin-right: 2%;
   }
 
-  .tapestry .products .card .poster-general .upper-info .image-container img {
+  .tapestry .products .card .poster-general .upper-info .image-container img{
     border: 12px solid var(--blanco);
   }
 
   .tapestry .products .card .down-info{
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
 
-  .tapestry .products .card .down-info .stars{
-    height: 15px;
-    width: 100px;
-    padding-top: 20px;
-  }
-
-  .tapestry .products .card .down-info .stars h2{
-    font-size: 1rem;
+  .tapestry .products .card .down-info p:first-child{
+    font-size: 0.8125rem;
   }
 
   .tapestry .products .card .down-info p{
-    font-size: 1.1rem;
+    font-size: 0.9375rem;
   }
 
 
@@ -1670,58 +1626,60 @@ html{
     padding-bottom: 30px;
   }
 
-  .mugs header p{
-    font-size: 0.875rem;
+
+  .mugs .trend-btns button{
+    font-size: 0.9375rem;
+    height: 50px;
+    width: 120px;
+
+  }
+
+  .mugs .trend-btns:last-child button{
+    width: 120px;
   }
 
 
   .mugs .products .card{
-  /* border: 3px solid red; */
-    height: 322px;
+    height: 425px;
     width: 28%;
     padding-bottom: 150px;
   }
 
   .mugs .products .card .poster-general button{
-    font-size: 1rem;
-    height: 50px;
+    font-size: 0.8125rem;
+    height: 40px;
   }
 
 
   .mugs .products .card .poster-general .upper-info button{
-    font-size: 0.775rem;
-    height: 30px;
-    width: 80px;
+    font-size: 0.625rem;
+    height: 20px;
+    width: 50px;
   }
 
-  .mugs .products .card .poster-general .upper-info .image-container {
-    height: 15px;
-    width: 18px;
-    margin-right: 8%;
+  .mugs .products .card .poster-general .upper-info .image-container{
+    height: 40px;
+    width: 40px;
+    margin-right: 2%;
   }
 
-  .mugs .products .card .poster-general .upper-info .image-container img {
+  .mugs .products .card .poster-general .upper-info .image-container img{
     border: 12px solid var(--blanco);
   }
 
-  .mugs .products .card .down-info{
+  .trending .products .card .down-info{
     padding-top: 20px;
     padding-bottom: 50px;
   }
 
-  .mugs .products .card .down-info .stars{
-    height: 15px;
-    width: 100px;
-    padding-top: 20px;
-  }
-
-  .mugs .products .card .down-info .stars h2{
-    font-size: 1rem;
+  .mugs .products .card .down-info p:first-child{
+    font-size: 0.8125rem;
   }
 
   .mugs .products .card .down-info p{
-    font-size: 1.1rem;
+    font-size: 0.9375rem;
   }
+
 
 
   /* Blog Section */
@@ -1777,36 +1735,44 @@ html{
     padding-bottom: 30px;
   }
 
-  .face-covers header p{
-    font-size: 0.875rem;
+
+  .face-covers .trend-btns button{
+    font-size: 0.9375rem;
+    height: 50px;
+    width: 120px;
+
+  }
+
+  .face-covers .trend-btns:last-child button{
+    width: 120px;
   }
 
 
   .face-covers .products .card{
-    height: 322px;
+    height: 425px;
     width: 28%;
     padding-bottom: 150px;
   }
 
   .face-covers .products .card .poster-general button{
-    font-size: 1rem;
-    height: 50px;
+    font-size: 0.8125rem;
+    height: 40px;
   }
 
 
   .face-covers .products .card .poster-general .upper-info button{
-    font-size: 0.775rem;
-    height: 30px;
-    width: 80px;
+    font-size: 0.625rem;
+    height: 20px;
+    width: 50px;
   }
 
-  .face-covers .products .card .poster-general .upper-info .image-container {
-    height: 15px;
-    width: 18px;
-    margin-right: 8%;
+  .face-covers .products .card .poster-general .upper-info .image-container{
+    height: 40px;
+    width: 40px;
+    margin-right: 2%;
   }
 
-  .face-covers .products .card .poster-general .upper-info .image-container img {
+  .face-covers .products .card .poster-general .upper-info .image-container img{
     border: 12px solid var(--blanco);
   }
 
@@ -1815,19 +1781,14 @@ html{
     padding-bottom: 50px;
   }
 
-  .face-covers .products .card .down-info .stars{
-    height: 15px;
-    width: 100px;
-    padding-top: 20px;
-  }
-
-  .face-covers .products .card .down-info .stars h2{
-    font-size: 1rem;
+  .face-covers .products .card .down-info p:first-child{
+    font-size: 0.8125rem;
   }
 
   .face-covers .products .card .down-info p{
-    font-size: 1.1rem;
+    font-size: 0.9375rem;
   }
+
 
   /* SignUP */
 
@@ -1864,14 +1825,16 @@ html{
   }
 
   .elephant .products .card{
-    height: 250px;
+    height: 300px;
     width: 28%;
     padding-bottom: 65px;
   }
 
   .elephant .products .card .poster-general .info{
-    padding-top: 10px;
-    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
     width: 150px;
   }
 
@@ -1894,8 +1857,8 @@ html{
   }
 
   .information .inf .image-container{
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 40px;
     padding-right: 10px;
   }
 
@@ -1926,8 +1889,8 @@ html{
   }
 
   .ft .image-container{
-    height: 20px;
-    width: 20px;
+    height: 40x;
+    width: 40px;
   }
 
 
@@ -1960,7 +1923,7 @@ html{
   }
 
   .ft .down-ft {
-    height: 100px;
+    height: auto;
   }
 
   .ft .down-ft .inf{
@@ -1976,11 +1939,13 @@ html{
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    margin-right: 4%;
   }
 
   .ft .down-ft .icons .image-container{
     height: 35px;
-    width: 35px;
+    width: 45px;
+    padding-right: 10px;
   }
 
 }  /*End Media Query*/
