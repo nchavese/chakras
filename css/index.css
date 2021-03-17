@@ -148,11 +148,10 @@ html{
 }
 
 .posters .card{
-  border: 2px solid red;
-  height: 600px;
+  height: 800px;
   margin-left: 2%;
   width: 96%;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .posters .card .poster-general{
@@ -173,7 +172,7 @@ html{
   color: var(--blanco);
   font-size: 1.5rem;
   font-weight: bold;
-  height: 80px;
+  height: 60px;
   outline: none;
 }
 
@@ -199,16 +198,16 @@ html{
 }
 
 .posters .card .poster-general .upper-info .image-container {
-  height: 20px;
-  width: 24px;
-  margin-right: 8%;
+  height: 60x;
+  width: 60px;
+  margin-right: 2%;
 }
 
 .posters .card .poster-general .upper-info .image-container img {
   background-color: white;
   height: 100%;
   width: 100%;
-  border: 20px solid var(--blanco);
+  border: 15px solid var(--blanco);
   border-radius: 100%;
 }
 
@@ -218,21 +217,26 @@ html{
 }
 
 .posters .card .down-info .stars{
-  /* border: 2px solid purple; */
   display: flex;
-  height: 20px;
+  align-items: center;
+  height: 50px;
   width: 160px;
   padding-top: 20px;
 }
 
+.posters .card .down-info .stars img{
+  height: 100%;
+  width: 100%;
+}
+
 .posters .card .down-info .stars h2{
-  font-size: 1.5rem;
+  font-size: 0.875rem;
 }
 
 
 .posters .card .down-info p{
   padding-top: 20px;
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
 }
 
 .posters .card .down-info p:first-child{
@@ -246,7 +250,6 @@ html{
 
 .poster2{
   background-image: url(https://cdn.shopify.com/s/files/1/2375/5099/products/7-chakra-watercolor-handmade-poster-tapestry_1080x.jpg);
-  background-color: #B4B4B4;
 }
 
 .poster3{
