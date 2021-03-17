@@ -475,19 +475,19 @@ html{
   align-items: center;
   background-color: var(--negro-promo);
   color: var(--blanco);
-  height: 700px;
+  height: 320px;
   width: 96%;
   margin-left: 2%;
 }
 
 .promo p:first-child{
-  font-size: 3rem;
+  font-size: 1.25rem;
   font-style: italic;
   padding-bottom: 30px;
 }
 
 .promo p:nth-child(0n+2){
-  font-size: 8rem;
+  font-size: 3.125rem;
   font-weight: bolder;
   text-align: center;
   padding-bottom:30px;
@@ -501,7 +501,7 @@ html{
   background-color: var(--negro-promo);
   border: 1px solid var(--blanco);
   color: var(--blanco);
-  font-size: 1rem;
+  font-size: 0.6875rem;
   height: 50px;
   letter-spacing: 2px;
   outline: none;
@@ -516,10 +516,6 @@ html{
 
 /* Estilos Tapestry */
 
-.tapestry {
-  padding-top: 50px;
-}
-
 .tapestry header{
   display: flex;
   flex-direction: column;
@@ -527,34 +523,59 @@ html{
 }
 
 .tapestry header h2 {
-  font-size: 2.5rem;
-  padding-bottom: 30px;
+  font-size: 1.25rem;
+  padding-bottom: 50px;
 }
 
-.tapestry header p {
-  color: var(--gris);
-  font-style: italic;
-  font-size: 1.5rem;
+.tapestry .trend-btns {
+  display: flex;
+  justify-content: center;
   padding-bottom: 50px;
+  width: 500px;
+}
+
+.tapestry .trend-btns button{
+  background-color: var(--blanco);
+  color: var(--gris-txt-btn);
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  font-size: 0.9375rem;
+  height: 50px;
+  outline: none;
+  width: 90px;
+
+}
+
+.tapestry .trend-btns:last-child button {
+  width: 100px;
+}
+
+.tapestry .trend-btns button:hover{
+  color: var(--negro-general);
+  border: 2px solid var(--negro-general);
+  transition: all .1s ease-in;
 }
 
 .tapestry .products {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   padding-bottom: 50px;
 }
 
 .tapestry .products .card{
- height: 300px;
-  margin-left: 2%;
-  margin-right: 2%;
-  width: 44%;
-  padding-bottom: 200px;
+  height: 500px;
+  width: 46%;
+  padding-bottom: 100px;
 }
 
 .tapestry .products .card .poster-general{
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -568,9 +589,9 @@ html{
   border: none;
   border-bottom: 1px solid green;
   color: var(--blanco);
-  font-size: 1.2rem;
+  font-size: 0.8125rem;
   font-weight: bold;
-  height: 50px;
+  height: 40px;
   outline: none;
 }
 
@@ -591,21 +612,22 @@ html{
   border: none;
   color: var(--blanco);
   font-weight: bold;
-  height: 40px;
-  width: 100px;
+  font-size: 0.625rem;
+  height: 25px;
+  width: 70px;
 }
 
 .tapestry .products .card .poster-general .upper-info .image-container {
-  height: 20px;
-  width: 24px;
-  margin-right: 10%;
+  height: 40px;
+  width: 40px;
+  margin-right: 5%;
 }
 
 .tapestry .products .card .poster-general .upper-info .image-container img {
   background-color: white;
   height: 100%;
   width: 100%;
-  border: 20px solid var(--blanco);
+  border: 10px solid var(--blanco);
   border-radius: 100%;
 }
 
@@ -616,11 +638,12 @@ html{
 
 .tapestry .products .card .down-info p{
   padding-top: 20px;
-  font-size: 1.5rem;
+  font-size: 0.8125rem;
 }
 
 .tapestry .products .card .down-info p:first-child{
   font-weight: bold;
+  font-size: 0.9375;
 }
 
 .tp1{
@@ -663,23 +686,24 @@ html{
   justify-content: space-around;
   background-color: var(--rosado-seccion);
   color: var(--blanco);
-  height: 650px;
+  height: 280px;
   text-align: center;
   margin-left: 1%;
   width: 100%;
 }
 
 .pnksct h2{
-  font-size: 4rem;
+  font-size: 1.875rem;
   font-weight: bold;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .pnksct p{
-  font-size: 2rem;
+  font-size: 1.125rem;
   margin-left: 5%;
   margin-right: 5%;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 /* Seccion Coffe Mugs */
@@ -695,34 +719,33 @@ html{
 }
 
 .mugs header h2 {
-  font-size: 2.5rem;
+  font-size: 1.25rem;
   padding-bottom: 30px;
 }
 
 .mugs header p {
   color: var(--gris);
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 0.875rem;
   padding-bottom: 50px;
 }
 
 .mugs .products {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   padding-bottom: 50px;
 }
 
 .mugs .products .card{
-  height: 300px;
-  margin-left: 2%;
-  margin-right: 2%;
+  height: 400px;
   width: 44%;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 .mugs .products .card .poster-general{
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -736,9 +759,9 @@ html{
   border: none;
   border-bottom: 1px solid green;
   color: var(--blanco);
-  font-size: 1.2rem;
+  font-size: 0.8125rem;
   font-weight: bold;
-  height: 50px;
+  height: 40px;
   outline: none;
 }
 
@@ -759,21 +782,22 @@ html{
   border: none;
   color: var(--blanco);
   font-weight: bold;
-  height: 40px;
-  width: 100px;
+  font-size: 0.625rem;
+  height: 25px;
+  width: 70px;
 }
 
 .mugs .products .card .poster-general .upper-info .image-container {
-  height: 20px;
-  width: 24px;
-  margin-right: 10%;
+  height: 40px;
+  width: 40px;
+  margin-right: 5%;
 }
 
 .mugs .products .card .poster-general .upper-info .image-container img {
   background-color: white;
   height: 100%;
   width: 100%;
-  border: 20px solid var(--blanco);
+  border: 10px solid var(--blanco);
   border-radius: 100%;
 }
 
@@ -784,11 +808,12 @@ html{
 
 .mugs .products .card .down-info p{
   padding-top: 20px;
-  font-size: 1.5rem;
+  font-size: 0.8125rem;
 }
 
 .mugs .products .card .down-info p:first-child{
   font-weight: bold;
+  font-size: 0.9375;
 }
 
 .mug1{
@@ -840,7 +865,7 @@ html{
 }
 
 .blog header h2{
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .blog .blog-group .blog-info{
@@ -856,7 +881,7 @@ html{
 
 .blog .blog-group .blog-info .image-container{
   /* border: 2px solid green; */
-  height: 600px;
+  height: 450px;
   width: 96%;
 }
 
@@ -867,14 +892,14 @@ html{
 
 .blog .blog-group .blog-info h2 {
   align-self: flex-start;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   padding-top: 20px;
 }
 
 .blog .blog-group .blog-info p{
   align-self: flex-start;
-  font-size: 1.35rem;
+  font-size: 0.9375em;
   padding-top: 20px;
 }
 
@@ -882,18 +907,18 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 
 .btn-more button{
   background-color: var(--gris-blog);
   border: 1px solid var(--turquesa-btn);
-  font-size: 1.5rem;
+  font-size: 0.6875rem;
   letter-spacing: 2px;
   color: var(--turquesa-btn);
-  height: 70px;
+  height: 40px;
   outline: none;
-  width: 300px;
+  width: 150px; 
 }
 
 .btn-more button:hover{
@@ -906,7 +931,7 @@ html{
 /* Estilos Face Covers */
 
 .face-covers{
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .face-covers header{
@@ -916,34 +941,33 @@ html{
 }
 
 .face-covers header h2 {
-  font-size: 2.5rem;
+  font-size: 1.25rem;
   padding-bottom: 30px;
 }
 
 .face-covers header p {
   color: var(--gris);
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 0.875rem;
   padding-bottom: 50px;
 }
 
 .face-covers .products {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   padding-bottom: 50px;
 }
 
 .face-covers .products .card{
-  height: 300px;
-  margin-left: 2%;
-  margin-right: 2%;
+  height: 400px;
   width: 44%;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 .face-covers .products .card .poster-general{
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -957,9 +981,9 @@ html{
   border: none;
   border-bottom: 1px solid green;
   color: var(--blanco);
-  font-size: 1.2rem;
+  font-size: 0.8125rem;
   font-weight: bold;
-  height: 50px;
+  height: 40px;
   outline: none;
 }
 
@@ -980,21 +1004,22 @@ html{
   border: none;
   color: var(--blanco);
   font-weight: bold;
-  height: 40px;
-  width: 100px;
+  font-size: 0.625rem;
+  height: 25px;
+  width: 70px;
 }
 
 .face-covers .products .card .poster-general .upper-info .image-container {
-  height: 20px;
-  width: 24px;
-  margin-right: 10%;
+  height: 40px;
+  width: 40px;
+  margin-right: 5%;
 }
 
 .face-covers .products .card .poster-general .upper-info .image-container img {
-  background-color: var(--blanco);
+  background-color: white;
   height: 100%;
   width: 100%;
-  border: 20px solid var(--blanco);
+  border: 10px solid var(--blanco);
   border-radius: 100%;
 }
 
@@ -1005,11 +1030,12 @@ html{
 
 .face-covers .products .card .down-info p{
   padding-top: 20px;
-  font-size: 1.5rem;
+  font-size: 0.8125rem;
 }
 
 .face-covers .products .card .down-info p:first-child{
   font-weight: bold;
+  font-size: 0.9375;
 }
 
 .fc1{
@@ -1049,38 +1075,38 @@ html{
   align-items: center;
   background-color: var(--negro-promo);
   color: var(--blanco);
-  height: 650px;
+  height: 270px;
   width: 100%;
 }
 
 .signup h2{
-  font-size: 3rem;
+  font-size: 1.625rem;
   padding-bottom: 60px;
 }
 
 .signup input{
   background-color: var(--negro-promo);
   border: none;
-  border-bottom: 2px solid var(--blanco);
+  border-bottom: 1px solid var(--blanco);
   color: var(--blanco);
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.125rem;
   text-align: center;
   outline: none;
   padding-bottom:10px;
-  width: inherit;
+  width: 400px;
 }
 
 .signup button{
   background-color: var(--negro-promo);
   border: 1px solid var(--turquesa-btn);
   color: var(--turquesa-btn);
-  font-size: 1rem;
-  height: 50px;
+  font-size: 0.6875rem;
+  height: 45px;
   letter-spacing: 2px;
   outline: none;
   margin-top: 40px;
-  width: 170px;
+  width: 130px;
 }
 
 .signup button:hover{
@@ -1103,14 +1129,14 @@ html{
 }
 
 .elephant header h2 {
-  font-size: 2.5rem;
+  font-size: 1.25rem;
   padding-bottom: 30px;
 }
 
 .elephant header p {
   color: var(--gris);
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 0.875rem;
   padding-bottom: 50px;
 }
 
@@ -1145,13 +1171,13 @@ html{
   background-color: var(--blanco);
   color: var(--gris-elep);
   padding-top: 10px;
-  height: 80px;
-  width: 250px;
+  height: 90px;
+  width: 150px;
 }
 
 .elephant .products .card .poster-general .info p {
   padding-top: 10px;
-  font-size: 1.3rem;
+  font-size: 0.9375rem;
   font-weight: bold;
   letter-spacing: 3px;
   line-height: 25px;
@@ -1179,16 +1205,23 @@ html{
 }
 
 .information .inf .image-container{
+  height: 40px;
   padding-right: 2%;
+  width: 50px;
+}
+
+.information .inf .image-container img{
+  height: 100%;
+  width: 100%;
 }
 
 .information .inf .inf-x h2{
-  font-size: 1.7rem;
+  font-size: 0.875rem;
   padding-bottom: 20px;
 }
 
 .information .inf .inf-x p{
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   color: var(--gris-elep);
 }
 
@@ -1210,6 +1243,11 @@ html{
   width: 30px;
 }
 
+.ft .mail .image-container{
+  height: 20px;
+  width: 20px;
+}
+
 
 .ft .up-ft .touch{
   display: flex;
@@ -1222,6 +1260,7 @@ html{
 }
 
 .ft .up-ft .touch .mail p{
+  font-size: 0.9375;
   padding-left: 10px;
 }
 
@@ -1237,7 +1276,7 @@ html{
 }
 
 .ft .up-ft .touch h2{
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   padding-bottom:20px;
 }
@@ -1247,7 +1286,7 @@ html{
 }
 
 .ft .up-ft .ft-information h2{
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   padding-bottom: 15px;
 }
@@ -1274,8 +1313,8 @@ html{
   border-right: none;
   background-color: var(--negro-promo);
   color: var(--gris-foot);
-  font-size: 1.5rem;
-  height: 60px;
+  font-size: 0.8125rem;
+  height: 40px;
   width: 80%;
 }
 
@@ -1287,10 +1326,10 @@ html{
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   color: var(--blanco);
-  font-size: 1.3rem;
+  font-size: 0.8125rem;
   font-weight: bold;
   outline: none;
-  height: 50px;
+  height: 35px;
   width: 15%;
 }
 
@@ -1305,12 +1344,17 @@ html{
   justify-content: space-between;
   background-color: var(--negro-dnft);
   padding-top: 50px;
-  height: 250px;
+  height: 150x;
+}
+
+.ft .down-ft .inf h2{
+  font-size: 0.9375rem;
 }
 
 .ft .down-ft .inf{
   display: flex;
-  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 .ft .down-ft .inf .image-container{
@@ -1319,16 +1363,14 @@ html{
 
 .ft .down-ft .icons{
   display: flex;
+  justify-content: space-evenly;
   padding-bottom: 20px;
+  width: 300px;
 }
 
 .ft .down-ft .icons .image-container{
-  padding-right: 15px;
-}
-
-.ft .down-ft .icons .image-container{
-  height: 50px;
-  width: 50px;
+  height: 25px;
+  width: 35px;
 }
 
 .ft .down-ft .icons .image-container img{
