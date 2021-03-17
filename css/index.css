@@ -280,19 +280,20 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-bottom: 70px;
-  width: inherit;
+  width: 100%;
 }
 
 .btn-load button{
   background-color: var(--blanco);
   border: 1px solid var(--turquesa-btn);
-  font-size: 1.5rem;
+  font-size: 0.6875rem;
   letter-spacing: 2px;
   color: var(--turquesa-btn);
-  height: 70px;
+  height: 50px;
   outline: none;
-  width: inherit;
+  width: 285px;
 }
 
 .btn-load button:hover{
@@ -310,12 +311,15 @@ html{
 }
 
 .trending header h2 {
-  font-size: 2.5rem;
+  font-size: 1.25rem;
   padding-bottom: 50px;
 }
 
 .trending .trend-btns {
+  display: flex;
+  justify-content: center;
   padding-bottom: 50px;
+  width: 500px;
 }
 
 .trending .trend-btns button{
@@ -327,15 +331,15 @@ html{
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
-  font-size: 2rem;
-  height: 90px;
+  font-size: 0.9375rem;
+  height: 50px;
   outline: none;
-  width: 150px;
+  width: 90px;
 
 }
 
 .trending .trend-btns:last-child button {
-  width: 190px;
+  width: 100px;
 }
 
 .trending .trend-btns button:hover{
@@ -345,24 +349,22 @@ html{
 }
 
 .trending .products {
-  /* border: 2px solid purple; */
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   padding-bottom: 50px;
 }
 
 .trending .products .card{
-  /* border: 3px solid red; */
-  height: 300px;
-  margin-left: 2%;
-  margin-right: 2%;
-  width: 44%;
-  padding-bottom: 200px;
+  height: 500px;
+  width: 46%;
+  padding-bottom: 100px;
 }
 
 .trending .products .card .poster-general{
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -375,9 +377,9 @@ html{
   border: none;
   border-bottom: 1px solid green;
   color: var(--blanco);
-  font-size: 1.2rem;
+  font-size: 0.8125rem;
   font-weight: bold;
-  height: 50px;
+  height: 40px;
   outline: none;
 }
 
@@ -398,21 +400,22 @@ html{
   border: none;
   color: var(--blanco);
   font-weight: bold;
-  height: 40px;
-  width: 100px;
+  font-size: 0.625rem;
+  height: 25px;
+  width: 70px;
 }
 
 .trending .products .card .poster-general .upper-info .image-container {
-  height: 20px;
-  width: 24px;
-  margin-right: 10%;
+  height: 40px;
+  width: 40px;
+  margin-right: 5%;
 }
 
 .trending .products .card .poster-general .upper-info .image-container img {
   background-color: white;
   height: 100%;
   width: 100%;
-  border: 20px solid var(--blanco);
+  border: 10px solid var(--blanco);
   border-radius: 100%;
 }
 
@@ -423,11 +426,12 @@ html{
 
 .trending .products .card .down-info p{
   padding-top: 20px;
-  font-size: 1.5rem;
+  font-size: 0.8125rem;
 }
 
 .trending .products .card .down-info p:first-child{
   font-weight: bold;
+  font-size: 0.9375;
 }
 
 .ts1{
