@@ -516,6 +516,10 @@ html{
 
 /* Estilos Tapestry */
 
+.tapestry{
+  padding-top: 50px;
+}
+
 .tapestry header{
   display: flex;
   flex-direction: column;
@@ -524,40 +528,14 @@ html{
 
 .tapestry header h2 {
   font-size: 1.25rem;
+  padding-bottom: 30px;
+}
+
+.tapestry header p {
+  color: var(--gris);
+  font-style: italic;
+  font-size: 0.875rem;
   padding-bottom: 50px;
-}
-
-.tapestry .trend-btns {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
-  width: 500px;
-}
-
-.tapestry .trend-btns button{
-  background-color: var(--blanco);
-  color: var(--gris-txt-btn);
-  cursor: pointer;
-  border: none;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
-  font-size: 0.9375rem;
-  height: 50px;
-  outline: none;
-  width: 90px;
-
-}
-
-.tapestry .trend-btns:last-child button {
-  width: 100px;
-}
-
-.tapestry .trend-btns button:hover{
-  color: var(--negro-general);
-  border: 2px solid var(--negro-general);
-  transition: all .1s ease-in;
 }
 
 .tapestry .products {
